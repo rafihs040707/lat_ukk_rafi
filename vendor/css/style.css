@@ -11,3 +11,11 @@
         max-height: 35px;
     }
 }
+.blurk{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+.tumpul{
+    border-radius: 25px;
+    width: 1300px;
+}

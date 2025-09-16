@@ -74,7 +74,7 @@
                         <?php foreach ($galeri as $img): ?>
                             <div class="col-lg-3 mb-4">
                                 <div class="card border-0">
-                                    <div class="card-body p-2">
+                                    <div class="card-body shadow-lg p-2">
                                         <img src="<?= $img; ?>" class="w-100 h-50" style="object-fit:cover;">
                                     </div>
                                 </div>

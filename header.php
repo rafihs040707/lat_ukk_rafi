@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./vendor/css/style.css">
 </head>
 
-<body>
+<body style="background-color: #DCDCDC;">
     <section> <!-- SECTION TOP BAR -->
-        <div class="container-fluid d-flex justify-content-between align-items-center bg-black py-1 px-5">
+        <div class="container-fluid d-flex justify-content-between align-items-center bg-black py-1 px-5 tumpul">
             <h4 class="text-white me-2 d-flex flex-wrap"><a href="https://wa.me/6281220481865"
                     class="text-decoration-none text-white link-dark d-inline-flex align-items-center fs-5"
                     target="_blank"><img src="icon/phone.png" class="m-2" id="ic">+6281220481865</a></h4>
@@ -31,7 +31,7 @@
     </section> <!-- TUTUP SECTION TOP BAR -->
 
     <!-- BUKA NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light blurk tumpul border-bottom sticky-top mx-auto">
         <div class="container-fluid px-5">
             <a class="navbar-brand" href="index.php"><img src="image/logo.png" class="logo"></a>
             <a class="navbar-brand" href="index.php">

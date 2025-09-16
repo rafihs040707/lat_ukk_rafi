@@ -9,7 +9,7 @@
             <h3 class="d-inline-flex">Sejarah</h3>
             <h3 class="text-primary d-inline-flex ms-1">Sekolah</h3>
         </div>
-        <div class="container shadow-lg">
+        <div class="container shadow-lg bg-white">
             <img src="image/fotogerbang.jpg" class="w-75 h-75 mx-auto d-block my-3 pt-4">
             <h4 class="fw-bold ms-3">Latar Belakang</h4>
             <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sejalan dengan Program Pemerintah dibidang

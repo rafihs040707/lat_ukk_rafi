@@ -8,14 +8,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="mt-3 text-center">Ekstrakurikuler</h3>
-                <!-- Form Pencarian -->
-                <form class="d-flex justify-content-start mb-4 my-3" method="GET" action="">
-                    <input class="form-control w-25 me-2" type="search" name="keyword"
-                        placeholder="Cari Ekstrakulikuler..."
-                        value="<?= isset($_GET['keyword']) ? htmlspecialchars($_GET['keyword'], ENT_QUOTES, 'UTF-8') : ''; ?>">
-                    <button class="btn btn-primary" type="submit">Cari</button>
-                </form>
+                <h3 class="mt-3 text-center">Ekstrakulikuler</h3>
                 <div class="row">
                     <?php
                     $cards = [
@@ -68,32 +61,17 @@
                             "image" => "image/e12.png",
                         ]
                     ];
-                    // Ambil keyword dari form
-                    $keyword = isset($_GET['keyword']) ? trim($_GET['keyword']) : "";
-                    // Filter array kalau ada keyword
-                    if ($keyword !== "") {
-                        $cards = array_filter($cards, function ($card) use ($keyword) {
-                            return stripos($card['title'], $keyword) !== false;
-                        });
-                    }
                     ?>
-                    <?php if (!empty($cards)): ?>
-                        <?php foreach ($cards as $card): ?>
-                            <div class="col-lg-3 mb-4">
-                                <div class="card text-center border-0 shadow-lg">
-                                    <div class="card-header">
-                                        <h5 class="mb-0"><?= htmlspecialchars($card['title'], ENT_QUOTES, 'UTF-8'); ?></h5>
-                                    </div>
-                                    <img src="<?= htmlspecialchars($card['image'], ENT_QUOTES, 'UTF-8'); ?>"
-                                        class="w-50 h-25 img-fluid mx-auto d-block my-3" alt="<?= htmlspecialchars($card['title'], ENT_QUOTES, 'UTF-8'); ?>">
+                    <?php foreach ($cards as $card): ?>
+                        <div class="col-lg-3 mb-4">
+                            <div class="card text-center border-0 shadow-lg">
+                                <div class="card-header">
+                                    <h4 class="mb-0"><?= $card['title']; ?></h4>
                                 </div>
+                                <img src="<?= $card['image']; ?>" class="w-50 h-25 img-fluid mx-auto d-block my-3">
                             </div>
-                        <?php endforeach; ?>
-                    <?php else: ?>
-                        <div class="col-12 text-center">
-                            <p class="text-danger fw-bold">Tidak ada nama ekstrakurikuler tersebut.</p>
                         </div>
-                    <?php endif; ?>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>

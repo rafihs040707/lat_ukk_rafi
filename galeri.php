@@ -24,7 +24,7 @@
                 <div class="row">
                     <?php foreach ($images as $img): ?>
                         <div class="col-lg-3 mb-4">
-                            <div class="card border-0">
+                            <div class="card border-0 shadow-lg">
                                 <div class="card-body p-2">
                                     <img src="<?= $img; ?>" class="w-100 h-50 img-fluid">
                                 </div>
