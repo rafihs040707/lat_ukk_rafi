@@ -10,7 +10,7 @@
             <div class="col-lg-12">
                 <h3 class="mb-3 mt-3 text-center">Galeri</h3>
                 <?php
-                $images = [
+                $galeris = [
                     "image/2.JPG",
                     "image/3.JPG",
                     "image/4.JPG",
@@ -21,12 +21,12 @@
                     "image/9.JPG"
                 ];
                 ?>
-                <div class="row">
-                    <?php foreach ($images as $img): ?>
+                <div class="row align-items-center justify-content-evenly">
+                    <?php foreach ($galeris as $galeri): ?>
                         <div class="col-lg-3 mb-4">
                             <div class="card border-0 shadow-lg">
                                 <div class="card-body p-2">
-                                    <img src="<?= $img; ?>" class="w-100 h-50 img-fluid">
+                                    <img src="<?= $galeri; ?>" class="w-100 h-50 img-fluid">
                                 </div>
                             </div>
                         </div>

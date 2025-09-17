@@ -8,20 +8,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="mt-3 text-center">Ekstrakulikuler</h3>
-                <div class="row">
+                <h3 class="my-4 text-center">Ekstrakurikuler</h3>
+                <div class="row align-items-center justify-content-evenly">
                     <?php
-                    $cards = [
+                    $ekskuls = [
                         [
                             "title" => "English Club",
                             "image" => "image/e1.png",
                         ],
                         [
-                            "title" => "ITClub",
-                            "image" => "image/e2.png",
-                        ],
-                        [
-                            "title" => "Pasbibra",
+                            "title" => "Paskibra",
                             "image" => "image/e3.png",
                         ],
                         [
@@ -59,16 +55,22 @@
                         [
                             "title" => "Fustal",
                             "image" => "image/e12.png",
+                        ],
+                        [
+                            "title" => "Irma",
+                            "image" => "image/e13.png",
                         ]
                     ];
                     ?>
-                    <?php foreach ($cards as $card): ?>
-                        <div class="col-lg-3 mb-4">
+                    <?php foreach ($ekskuls as $ekskul): ?>
+                        <div class="col-md-3 mb-4">
                             <div class="card text-center border-0 shadow-lg">
                                 <div class="card-header">
-                                    <h4 class="mb-0"><?= $card['title']; ?></h4>
+                                    <h4 class="mb-0"><?= $ekskul['title']; ?></h4>
                                 </div>
-                                <img src="<?= $card['image']; ?>" class="w-50 h-25 img-fluid mx-auto d-block my-3">
+                                <div class="card-body">
+                                    <img src="<?= $ekskul['image']; ?>" class="w-50 h-25 img-fluid mx-auto d-block my-3">
+                                </div>
                             </div>
                         </div>
                     <?php endforeach; ?>

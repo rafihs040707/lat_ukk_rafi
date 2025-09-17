@@ -94,7 +94,7 @@
             <div class="col-lg-12">
                 <h3 class="text-center my-5">Statistik</h3>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <div class="card text-center border-0 bg-primary text-white shadow">
                             <div class="card-body">
                                 <!-- khusus peserta didik -->
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <div class="card text-center border-0 bg-primary text-white shadow">
                             <div class="card-body">
                                 <h3 class="count-up" data-target="100">0</h3>
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <div class="card text-center border-0 bg-primary text-white shadow">
                             <div class="card-body">
                                 <h3 class="count-up" data-target="45">0</h3>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <div class="card text-center border-0 bg-primary text-white shadow">
                             <div class="card-body">
                                 <h3 class="count-up" data-target="5">0</h3>
