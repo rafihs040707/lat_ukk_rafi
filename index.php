@@ -5,10 +5,48 @@
 <?php include "header.php" ?>
 
 <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="d-block w-100" autoplay muted loop>
+                    <source src="image/c1.mp4" type="video/mp4">
+                </video>
+                <div class="text-white d-none d-md-block custom-caption blurk2 text-center align-content-center">
+                    <h4>SMK Negeri 4 Tasikmalya</h4>
+                    <p>Sekolah Pusat Keunggulan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="col-lg-12 my-5">
+            <h3 class="d-inline-flex">Sambutan</h3>
+            <h3 class="text-primary d-inline-flex ms-1">Kepala Sekolah</h3>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="image/kepsek.png" class="rounded img-fluid">
+                </div>
+                <div class="col-lg-8 mt-3">
+                    <h1>Kurniawan S.Pd, M.Pd</h1>
+                    <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
+                    <p>Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini. Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh tentang sekolah kami sehingga dapat mempererat tali silaturrahmi antara sekolah dengan masyarakat demi kemajuan kita bersama. Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki. Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.</p>
+                    <p>Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu segala bantuan dan persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat.</p>
+                    <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
     <section> <!-- SECTION BERITA -->
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="my-5 text-center">Berita</h3>
+                <h3 class="my-4 text-center">Berita</h3>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="card shadow">
@@ -61,7 +99,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="mb-3 mt-3 text-center">Galeri</h3>
+                    <h3 class="my-4 text-center">Galeri</h3>
                     <?php
                     $galeri = [
                         "image/2.JPG",

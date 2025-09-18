@@ -27,3 +27,13 @@
 body{
     background-color: #DCDCDC;
 }
+.custom-caption {
+    position: absolute;
+    bottom: 0%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 8px;
+    height: 150px;
+    width: 100%;
+}
