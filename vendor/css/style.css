@@ -1,32 +1,39 @@
-.logo{
+.logo {
     width: 60px;
     height: 70px;
 }
-#ic{
+
+#ic {
     height: 25px;
     width: 25px;
 }
+
 @media (max-width: 768px) {
     .logo {
         max-width: 30px;
         max-height: 40px;
     }
 }
-.blurk{
+
+.blurk {
     background-color: transparent;
     backdrop-filter: blur(20px);
 }
-.tumpul{
+
+.tumpul {
     border-radius: 50px;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
     background-color: #ffff;
 }
-body{
+
+body {
     background-color: #DCDCDC;
 }
+
 .custom-caption {
     position: absolute;
     bottom: 0%;
@@ -36,4 +43,16 @@ body{
     border-radius: 8px;
     height: 150px;
     width: 100%;
+}
+
+.img-shadow {
+    /* offset x offset y warna buram */
+    filter: drop-shadow(12px 12px 10px rgba(0, 0, 0, 0.45));
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-lebar{
+    width: 700px;
+    height: 500px;
 }

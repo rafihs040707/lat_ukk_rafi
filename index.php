@@ -14,6 +14,29 @@
                 <div class="text-white d-none d-md-block custom-caption blurk2 text-center align-content-center">
                     <h4>SMK Negeri 4 Tasikmalya</h4>
                     <p>Sekolah Pusat Keunggulan</p>
+                    <!-- Tombol Pemicu untuk memunculkan Pop Up -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Tonton Video
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Memunculkan Pop Up Video -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="container my-4">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/iBtaSZEneMQ?si=w41PUHv9wJ5Jo16a?autoplay=1" title="YouTube video"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -27,7 +50,7 @@
             <h3 class="text-primary d-inline-flex ms-1">Kepala Sekolah</h3>
             <div class="row">
                 <div class="col-lg-4 text-center">
-                    <img src="image/kepsek.png" class="rounded img-fluid">
+                    <img src="image/kepsek.png" class="rounded img-fluid img-shadow">
                 </div>
                 <div class="col-lg-8 mt-3">
                     <h1>Kurniawan S.Pd, M.Pd</h1>
