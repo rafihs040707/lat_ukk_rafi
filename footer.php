@@ -8,25 +8,25 @@
                         <h4 class="text-white">SMKN 4 Tasikmalaya</h4>
                         <h5 class="text-white">Jl Depok Kel. Sukamenak Kec. Purbaratu</h5>
                         <h5 class="text-white mb-3">Kota Tasikmalaya 46196.</h5>
-                        <h4 class="text-white mb-3"><a href="https://wa.me/6281220481865"
+                        <h4 class="text-white mb-3"><a href="https://wa.me/62265312059"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank"><img src="icon/phone.png" class="m-2">+6281220481865</a></h4>
+                                target="_blank" title="Nomor Telepon Sekolah"><img src="icon/phone.png" class="m-2">+62265312059</a></h4>
                         <h4 class="text-white"><a href="mailto:info@smkn4-tsm.sch.id"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank"><img src="icon/email.png" class="m-2">info@smkn4-tsm.sch.id</a></h4>
+                                target="_blank" title="Email Sekolah"><img src="icon/email.png" class="m-2">info@smkn4-tsm.sch.id</a></h4>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="text-white mb-4">Media Sosial</h3>
                         <h4 class="text-white mb-3"><a href="https://instagram.com/smkn4tsmofficial"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank"><img src="icon/instagram.png" class="m-2">Instagram</a></h4>
+                                target="_blank" title="Instagram Sekolah"><img src="icon/instagram.png" class="m-2">Instagram</a></h4>
                         <h4 class="text-white mb-3"><a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank"><img src="icon/youtube.png" class="m-2">Youtube</a></h4>
+                                target="_blank" title="Youtube Sekolah"><img src="icon/youtube.png" class="m-2">Youtube</a></h4>
                         <h4 class="text-white"><a
                                 href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank"><img src="icon/tiktok.png" class="m-2">Tiktok</a></h4>
+                                target="_blank" title="Tiktok Sekolah"><img src="icon/tiktok.png" class="m-2">Tiktok</a></h4>
                     </div>
                     <div class="col-lg-4">
                         <h3 class="text-white mb-4">Link Eksternal</h3>
@@ -41,7 +41,7 @@
                                 target="_blank">PSMK</a></h4>
                         <h4 class="text-white"><a href="https://disdik.jabarprov.go.id/"
                                 class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                                target="_blank">Disdik Jabar</a></h4>   
+                                target="_blank">Disdik Jabar</a></h4>
                     </div>
                 </div>
             </div>

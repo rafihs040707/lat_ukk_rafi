@@ -12,20 +12,20 @@
 <body>
     <section> <!-- SECTION TOP BAR -->
         <div class="container-fluid d-flex justify-content-between align-items-center bg-black py-1 px-5">
-            <h4 class="text-white me-2 d-flex flex-wrap"><a href="https://wa.me/6281220481865"
+            <h4 class="text-white me-2 d-flex flex-wrap"><a href="https://wa.me/62265312059"
                     class="text-decoration-none text-white link-dark d-inline-flex align-items-center fs-5"
-                    target="_blank"><img src="icon/phone.png" class="m-2" id="ic">+6281220481865</a></h4>
+                    target="_blank" title="Nomor Telepon Sekolah"><img src="icon/phone.png" class="m-2" id="ic">+62265312059</a></h4>
             <div class="d-flex flex-wrap justify-content-end">
                 <h4 class="text-white me-3"><a href="https://instagram.com/smkn4tsmofficial"
                         class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                        target="_blank"><img src="icon/instagram.png" class="m-2" id="ic"></a></h4>
+                        target="_blank" title="Instagram Sekolah"><img src="icon/instagram.png" class="m-2" id="ic"></a></h4>
                 <h4 class="text-white me-3"><a href="https://www.youtube.com/@smkn4tasikmalayamediaoffic704"
                         class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                        target="_blank"><img src="icon/youtube.png" class="m-2" id="ic"></a></h4>
+                        target="_blank" title="Youtube Sekolah"><img src="icon/youtube.png" class="m-2" id="ic"></a></h4>
                 <h4 class="text-white"><a
                         href="https://www.tiktok.com/@smkn4tasikmalaya?is_from_webapp=1&sender_device=pc"
                         class="text-decoration-none text-white link-dark d-inline-flex align-items-center"
-                        target="_blank"><img src="icon/tiktok.png" class="m-2" id="ic"></a></h4>
+                        target="_blank" title="Tiktok Sekolah"><img src="icon/tiktok.png" class="m-2" id="ic"></a></h4>
             </div>
         </div>
     </section> <!-- TUTUP SECTION TOP BAR -->

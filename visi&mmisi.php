@@ -6,7 +6,7 @@
 
     <section> <!--SECTION VISI & MISI -->
         <div class="container">
-            <div class="card shadow-lg mt-3">
+            <div class="shadow-lg mt-3">
                 <h3 class="text-center mt-3 pt-5">Visi & Misi SMK Negeri 4 Tasikmalaya</h3>
                 <h4 class="text-center mt-5">Visi :</h4>
                 <h4 class="text-center mt-5">"TERWUJUDNYA LULUSAN YANG CERDAS, AKTIF, KOMPETITIF, ADAPTIF, DAN PRODUKTIF

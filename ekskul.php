@@ -69,7 +69,7 @@
                                     <h4 class="mb-0"><?= $ekskul['title']; ?></h4>
                                 </div>
                                 <div class="card-body">
-                                    <img src="<?= $ekskul['image']; ?>" class="w-50 h-25 img-fluid mx-auto d-block my-3">
+                                    <img src="<?= $ekskul['image']; ?>" class="w-50 h-25 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                             </div>
                         </div>

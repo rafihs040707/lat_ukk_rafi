@@ -9,7 +9,7 @@
             <h3 class="d-inline-flex">Sejarah</h3>
             <h3 class="text-primary d-inline-flex ms-1">Sekolah</h3>
         </div>
-        <div class="container shadow-lg bg-white">
+        <div class="container shadow-lg">
             <img src="image/fotogerbang.jpg" class="w-75 h-75 mx-auto d-block my-3 pt-4">
             <h4 class="fw-bold ms-3">Latar Belakang</h4>
             <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sejalan dengan Program Pemerintah dibidang
@@ -28,7 +28,7 @@
                 peserta Didik Baru pada waktu itu berjumlah 44 orang. Pada awalnya tempat belajar menumpang di SMP
                 Negeri 17 Kota Tasikmalaya, dan sekolah induknya adalah SMK Negeri 2 Kota Tasikmalaya, Untuk Tenaga
                 pendidik dan Tenaga Kependidikan masih dibantu sepenuhnya oleh kedua sekolah tersebut.</p>
-            <p class="ms-5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada tahun 2012 keluarlah surat Izin
+            <p class="ms-5 pb-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pada tahun 2012 keluarlah surat Izin
                 Pendirian berdasarkan keputusan kepala Badan Pelayanan
                 Perizinan Terpadu Kota Tasikmalaya No. 420/9/SK-BPPT/2012 Tanggal 06 Februari 2012.</p>
         </div>

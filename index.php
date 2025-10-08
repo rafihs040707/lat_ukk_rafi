@@ -32,7 +32,7 @@
                 <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="container my-4">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/iBtaSZEneMQ?si=w41PUHv9wJ5Jo16a?autoplay=1" title="YouTube video"
+                        <iframe src="https://www.youtube.com/embed/iBtaSZEneMQ?si=w41PUHv9wJ5Jo16a?autoplay=1&mute=1" title="YouTube video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
@@ -122,29 +122,25 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="my-4 text-center">Galeri</h3>
-                    <?php
-                    $galeri = [
-                        "image/2.JPG",
-                        "image/3.JPG",
-                        "image/4.JPG",
-                        "image/5.JPG",
-                    ];
-                    ?>
+                    <h2 class="text-center my-3">Galeri</h2>
                     <div class="row">
-                        <?php foreach ($galeri as $img): ?>
-                            <div class="col-lg-3 mb-4">
-                                <div class="card border-0">
-                                    <div class="card-body shadow-lg p-2">
-                                        <img src="<?= $img; ?>" class="w-100 h-50" style="object-fit:cover;">
-                                    </div>
-                                </div>
+                        <?php
+                        $galeris = [
+                            "image/2.JPG",
+                            "image/3.JPG",
+                            "image/4.JPG",
+                            "image/5.JPG",
+                        ];
+                        ?>
+                        <?php foreach ($galeris as $galeri) : ?>
+                            <div class="col-lg-3 my-3">
+                                <img src="<?= $galeri ?>" class="img-fluid img-shadow">
                             </div>
                         <?php endforeach; ?>
                     </div>
-                    <div class="text-center my-2">
-                        <a href="galeri.php" class="btn btn-primary shadow link-dark text-white">Intip Lainnya</a>
-                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="galeri.php" class="btn btn-primary link-dark text-white shadow mt-3">Intip Lainnya</a>
                 </div>
             </div>
         </div>
@@ -203,7 +199,7 @@
                             <div class="card align-items-center text-center shadow">
                                 <div class="card-header">
                                     <h4>PPLG</h4>
-                                    <img src="image/pplg.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                    <img src="image/pplg.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                                 <div class="card-body">
                                     <h5>Pengembangan Perangkat Lunak dan Gim</h5>
@@ -214,7 +210,7 @@
                             <div class="card align-items-center text-center shadow">
                                 <div class="card-header">
                                     <h4>TJKT</h4>
-                                    <img src="image/tkj.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                    <img src="image/tkj.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                                 <div class="card-body">
                                     <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5>
@@ -225,7 +221,7 @@
                             <div class="card align-items-center text-center shadow">
                                 <div class="card-header">
                                     <h4>DKV</h4>
-                                    <img src="image/dkv.png" class="w-100 h-100 img-fluid mx-auto d-block my-3">
+                                    <img src="image/dkv.png" class="w-100 h-100 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                                 <div class="card-body">
                                     <h5>Desain Komunikasi Visual</h5>
@@ -236,7 +232,7 @@
                             <div class="card align-items-center text-center shadow">
                                 <div class="card-header">
                                     <h4>TOI</h4>
-                                    <img src="image/toi.png" class="w-75 h-50 img-fluid mx-auto d-block my-3">
+                                    <img src="image/toi.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                                 <div class="card-body">
                                     <h5>Teknik Otomasi Industri</h5>
@@ -247,7 +243,7 @@
                             <div class="card align-items-center text-center shadow">
                                 <div class="card-header">
                                     <h4>TBSM</h4>
-                                    <img src="image/tbsm.png" class="w-50 h-25 img-fluid mx-auto d-block my-3">
+                                    <img src="image/tbsm.png" class="w-50 h-25 img-fluid mx-auto d-block my-3 img-shadow">
                                 </div>
                                 <div class="card-body">
                                     <h5>Teknik Bisnis dan Sepeda Motor</h5>
