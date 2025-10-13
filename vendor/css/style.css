@@ -56,3 +56,9 @@ body {
     width: 700px;
     height: 500px;
 }
+p{
+    text-align: justify;
+}
+ol li{
+    text-align: justify;
+}
