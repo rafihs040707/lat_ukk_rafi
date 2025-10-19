@@ -17,7 +17,7 @@
 
 .blurk {
     background-color: transparent;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(25px);
 }
 
 .tumpul {

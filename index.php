@@ -4,7 +4,7 @@
 
 <?php include "header.php" ?>
 
-<div class="container-fluid">
+<div class="container-fluid border border-primary shadow">
     <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -13,7 +13,7 @@
                 </video>
                 <div class="text-white d-none d-md-block custom-caption blurk2 text-center align-content-center">
                     <h4>SMK Negeri 4 Tasikmalya</h4>
-                    <p>Sekolah Pusat Keunggulan</p>
+                    <p class="text-center">Sekolah Pusat Keunggulan</p>
                     <!-- Tombol Pemicu untuk memunculkan Pop Up -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Tonton Video
@@ -43,9 +43,9 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid border border-primary shadow mt-2">
     <div class="row align-items-center">
-        <div class="col-lg-12 my-5">
+        <div class="col-lg-12 my-3">
             <h3 class="d-inline-flex">Sambutan</h3>
             <h3 class="text-primary d-inline-flex ms-1">Kepala Sekolah</h3>
             <div class="row">
@@ -65,8 +65,9 @@
 
 </div>
 
-<div class="container-fluid">
-    <section> <!-- SECTION BERITA -->
+
+<section> <!-- SECTION BERITA -->
+    <div class="container-fluid border border-primary shadow mt-2">
         <div class="row">
             <div class="col-lg-12">
                 <h3 class="my-4 text-center">Berita</h3>
@@ -101,7 +102,7 @@
                                 <h6 class="text-end">Senin, 7 Okt 2024</h6>
                                 <h3 class="text-center">Tujuh Siswa SMKN 4 Tasikmalaya Raih Beasiswa Dari Yayasan Astra Honda Motor</h3>
                                 <?php
-                                $kondisi = true; // ubah jadi false untuk lihat hasil else
+                                $kondisi = false; // ubah jadi false untuk lihat hasil else
                                 if ($kondisi) {
                                     // Kalau kondisi benar, link ke radartasik.com
                                     echo '<a href="https://radartasik.id/2024/10/07/tujuh-siswa-smkn-4-tasikmalaya-raih-beasiswa-dari-yayasan-astra-honda-motor/" target="_blank" class="btn btn-primary shadow link-dark text-white">Baca Selengkapnya</a>';
@@ -116,37 +117,38 @@
                 </div>
             </div>
         </div>
-    </section> <!-- TUTUP SECTION BERITA -->
+</section> <!-- TUTUP SECTION BERITA -->
 
-    <section> <!-- SECTION GALERI -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-center my-3">Galeri</h2>
-                    <div class="row">
-                        <?php
-                        $galeris = [
-                            "image/2.JPG",
-                            "image/3.JPG",
-                            "image/4.JPG",
-                            "image/5.JPG",
-                        ];
-                        ?>
-                        <?php foreach ($galeris as $galeri) : ?>
-                            <div class="col-lg-3 my-3">
-                                <img src="<?= $galeri ?>" class="img-fluid img-shadow">
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="galeri.php" class="btn btn-primary link-dark text-white shadow mt-3">Intip Lainnya</a>
+<section> <!-- SECTION GALERI -->
+    <div class="container-fluid border border-primary shadow mt-2">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center my-3">Galeri</h2>
+                <div class="row">
+                    <?php
+                    $galeris = [
+                        "image/2.JPG",
+                        "image/3.JPG",
+                        "image/4.JPG",
+                        "image/5.JPG",
+                    ];
+                    ?>
+                    <?php foreach ($galeris as $galeri) : ?>
+                        <div class="col-lg-3 my-3">
+                            <img src="<?= $galeri ?>" class="img-fluid img-shadow">
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
+            <div class="text-center">
+                <a href="galeri.php" class="btn btn-primary link-dark text-white shadow mt-3">Intip Lainnya</a>
+            </div>
         </div>
-    </section> <!-- TUTUP SECTION GALERI -->
+    </div>
+</section> <!-- TUTUP SECTION GALERI -->
 
-    <section> <!-- SECTION STATISTIK -->
+<section> <!-- SECTION STATISTIK -->
+    <div class="container-fluid border border-primary shadow mt-2">
         <div class="row">
             <div class="col-lg-12">
                 <h3 class="text-center my-5">Statistik</h3>
@@ -187,74 +189,75 @@
                 </div>
             </div>
         </div>
-    </section> <!-- TUTUP SECTION STATISTIK -->
+    </div>
+</section> <!-- TUTUP SECTION STATISTIK -->
 
-    <section> <!-- SECTION PROGRAM KEAHLIAN -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="text-center my-5">Program Keahlian</h3>
-                    <div class="row align-items-center justify-content-evenly">
-                        <div class="col-lg-4 py-3">
-                            <div class="card align-items-center text-center shadow">
-                                <div class="card-header">
-                                    <h4>PPLG</h4>
-                                    <img src="image/pplg.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
-                                </div>
-                                <div class="card-body">
-                                    <h5>Pengembangan Perangkat Lunak dan Gim</h5>
-                                </div>
+<section> <!-- SECTION PROGRAM KEAHLIAN -->
+    <div class="container border border-primary shadow mt-2">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-center my-5">Program Keahlian</h3>
+                <div class="row align-items-center justify-content-evenly">
+                    <div class="col-lg-4 py-3">
+                        <div class="card align-items-center text-center shadow">
+                            <div class="card-header">
+                                <h4>PPLG</h4>
+                                <img src="image/pplg.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow mt-3">
+                            </div>
+                            <div class="card-body">
+                                <h5>Pengembangan Perangkat Lunak dan Gim</h5>
                             </div>
                         </div>
-                        <div class="col-lg-4 py-3">
-                            <div class="card align-items-center text-center shadow">
-                                <div class="card-header">
-                                    <h4>TJKT</h4>
-                                    <img src="image/tkj.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
-                                </div>
-                                <div class="card-body">
-                                    <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5>
-                                </div>
+                    </div>
+                    <div class="col-lg-4 py-3">
+                        <div class="card align-items-center text-center shadow">
+                            <div class="card-header">
+                                <h4>TJKT</h4>
+                                <img src="image/tkj.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
+                            </div>
+                            <div class="card-body">
+                                <h5>Teknik Jaringan Komputer dan Telekomunikasi</h5>
                             </div>
                         </div>
-                        <div class="col-lg-4 py-3">
-                            <div class="card align-items-center text-center shadow">
-                                <div class="card-header">
-                                    <h4>DKV</h4>
-                                    <img src="image/dkv.png" class="w-100 h-100 img-fluid mx-auto d-block my-3 img-shadow">
-                                </div>
-                                <div class="card-body">
-                                    <h5>Desain Komunikasi Visual</h5>
-                                </div>
+                    </div>
+                    <div class="col-lg-4 py-3">
+                        <div class="card align-items-center text-center shadow">
+                            <div class="card-header">
+                                <h4>DKV</h4>
+                                <img src="image/dkv.png" class="w-100 h-100 img-fluid mx-auto d-block my-3 img-shadow">
+                            </div>
+                            <div class="card-body">
+                                <h5>Desain Komunikasi Visual</h5>
                             </div>
                         </div>
-                        <div class="col-lg-4 py-3">
-                            <div class="card align-items-center text-center shadow">
-                                <div class="card-header">
-                                    <h4>TOI</h4>
-                                    <img src="image/toi.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
-                                </div>
-                                <div class="card-body">
-                                    <h5>Teknik Otomasi Industri</h5>
-                                </div>
+                    </div>
+                    <div class="col-lg-4 py-3">
+                        <div class="card align-items-center text-center shadow">
+                            <div class="card-header">
+                                <h4>TOI</h4>
+                                <img src="image/toi.png" class="w-75 h-50 img-fluid mx-auto d-block my-3 img-shadow">
+                            </div>
+                            <div class="card-body">
+                                <h5>Teknik Otomasi Industri</h5>
                             </div>
                         </div>
-                        <div class="col-lg-4 py-3">
-                            <div class="card align-items-center text-center shadow">
-                                <div class="card-header">
-                                    <h4>TBSM</h4>
-                                    <img src="image/tbsm.png" class="w-50 h-25 img-fluid mx-auto d-block my-3 img-shadow">
-                                </div>
-                                <div class="card-body">
-                                    <h5>Teknik Bisnis dan Sepeda Motor</h5>
-                                </div>
+                    </div>
+                    <div class="col-lg-4 py-3">
+                        <div class="card align-items-center text-center shadow">
+                            <div class="card-header">
+                                <h4>TBSM</h4>
+                                <img src="image/tbsm.png" class="w-50 h-25 img-fluid mx-auto d-block my-3 img-shadow">
+                            </div>
+                            <div class="card-body">
+                                <h5>Teknik Bisnis dan Sepeda Motor</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!-- TUTUP SECTION PROGRAM KEAHLIAN -->
+    </div>
+</section><!-- TUTUP SECTION PROGRAM KEAHLIAN -->
 </div>
 
 <script src="vendor/js/countup.js"></script>
